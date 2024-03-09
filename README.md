@@ -5,6 +5,7 @@
 1. **AWS Account**: You need an AWS account with access key and secret key.
 2. **Dependencies**: 
     - [awscli](https://aws.amazon.com/cli/): Install using `brew install awscli`.
+    - Add a wrapper using `brew tap aws/tap`
     - [aws-sam-cli](https://aws.amazon.com/serverless/sam/): Install using `brew install aws-sam-cli`.
     - [Docker](https://www.docker.com/): Install Docker.
 3. **Configure AWS Account**: Run `aws configure` to set up your AWS credentials locally.
