@@ -40,6 +40,7 @@
 
 - Ensure your AWS credentials are properly configured locally using `aws configure`.
 - Make sure Docker is running before deploying or testing locally with `sam local invoke`.
+- If you want to test with your own local events then you can modify the json in "events.json" file and run command `sam local invoke -e events/event.json`.
 - The AWS Toolkit extension for VS Code can simplify Lambda function management and deployment tasks.
 - Always review the AWS documentation for any updates or changes to the deployment process.
 
